@@ -37,11 +37,13 @@ Project | Aras
   * _Note: You must login as root for the package import to succeed!_
 4. Enter the package name in the TargetRelease field.
   * Optional: Enter a description in the Description field.
-5. Enter the path to your local `..\lc-based-props-and-fields\Import\imports.mf` file in the Manifest File field.
+5. Enter the path to your local `..\lc-based-props-and-fields\0-Import - Common Utilities\imports.mf` file in the Manifest File field.
+  * There are 4 separate folders to import, repeat importing the .mf file for each folder.
 6. Select all packages in the Available for Import field.
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
 8. Click **Import** in the top left corner.
-9. Close the Aras Package Import tool.
+9.  Repeat for remaining packages.
+10. Close the Aras Package Import tool.
 
 ## Usage
 
